@@ -1,5 +1,7 @@
-import logo from './logo.svg';
+import { Button, CustomCombobox } from 'daya_cipta_erp/dist';
 import './App.css';
+import logo from './logo.svg';
+
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <CustomCombobox></CustomCombobox>
+        <Button label={"asdasdasdaasd"}></Button>
         <a
           className="App-link"
           href="https://reactjs.org"

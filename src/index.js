@@ -1,7 +1,9 @@
+import 'daya_cipta_erp/dist/index.cjs.css';
+import 'daya_cipta_erp/dist/index.esm.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

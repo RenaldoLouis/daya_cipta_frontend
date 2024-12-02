@@ -1,4 +1,4 @@
-import { Button, CustomCombobox } from 'daya_cipta_erp/dist';
+import { Button } from 'daya_cipta_erp';
 import './App.css';
 import logo from './logo.svg';
 
@@ -11,8 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <CustomCombobox></CustomCombobox>
-        <Button label={"asdasdasdaasd"}></Button>
+        <Button label={"asdas"} primary={true}></Button>
         <a
           className="App-link"
           href="https://reactjs.org"
